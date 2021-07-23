@@ -1,4 +1,4 @@
-# Landing page template
+# Taller Don Guti
 
 ## Instalación
 
@@ -13,7 +13,8 @@ Correr con:
 npx eleventy --serve
 ```
 
-Todos los derechos reservados.
+Taller Don Guti - Todos los derechos reservados.
+Licencia de plantilla [jgarmendia](https://github.com/jgarmendia)
 
 ### Usa
 
