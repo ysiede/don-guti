@@ -1,0 +1,77 @@
+/*
+  *
+  * gracias
+  *
+  */
+
+.flex-container {
+  padding: 0 1.5rem 1.5rem;
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.h2-center {
+  text-align: center;
+  color: var(--secondary-light);
+}
+
+.flex-center > ul > li {
+  padding: 0.5rem 0;
+}
+
+.p-gracias {
+  max-inline-size: 27ch;
+  text-align: center;
+}
+
+.svg-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 5rem;
+}
+
+.svg-gracias {
+  fill: var(--primary-color);
+}
+
+.svg-enviado {
+  width: 15rem;
+  height: 15rem;
+}
+
+/*en gordo*/
+@media (min-width: 768px) {
+  .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    margin: auto;
+    gap: 5rem;
+  }
+
+  .svg-enviado {
+    height: 50vh;
+    width: 40vw;
+  }
+}
+
+/*svg de https://undraw.co/ */

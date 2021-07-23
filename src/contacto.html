@@ -1,0 +1,88 @@
+---
+layout: base.njk
+title: Taller Don Guti - Contacto
+description: Contacto Taller Don Guti - Antofagasta
+robots: all
+url: https://donguti.cl/contacto
+---
+
+<main>
+  <section id="contacto" class="contacto">
+    <div class="contacto-top">
+      <h2 class="contacto-title">Contáctenos</h2>
+      <p>
+        Dudas, consultas y solicitudes sobre nuestros servicios.
+      </p>
+    </div>
+
+    <div id="contacto-form-container" class="contacto-form-container">
+      <form id="contacto-form" class="contacto-form" action="/gracias" method="post" data-netlify="true" netlify-honeypot="bot-field">
+
+        <div class="hidden">
+          <label>No llene esto si usted es un humano: </label>
+          <input name="bot-field" maxlength="8" />
+        </div>
+
+        <div class="contacto-form-group">
+          <label for="nombre">Nombre <span>(requerido)</span></label>
+          <div class="form-row"> 
+            <input type="text" name="nombre" id="nombre" minlength="3" maxlength="30" aria-describedby="ayuda-nombre" autocomplete="name" required />
+            <span class="emoji" id="nombre-span" aria-live="polite" hidden>⚠️</span>
+          </div>
+          <small id="ayuda-nombre" class="ayuda">Su nombre completo para contactarle.</small>
+        </div>
+
+        <div class="contacto-form-group">
+          <label for="email">Email <span>(requerido)</span></label>
+          <div class="form-row">
+            <input type="email" name="email" id="email" minlength="8" maxlength="40" aria-describedby="ayuda-email" autocomplete="email" required />
+            <span class="emoji" id="email-span" aria-live="polite" hidden>⚠️</span>
+          </div>
+          <small id="ayuda-email" class="ayuda">Le responderemos a esta dirección de email.</small>
+        </div>
+
+        <div class="contacto-form-group">
+          <label for="asunto">Asunto</label>
+          <div class="form-row">
+            <input type="text" name="asunto" id="asunto" aria-describedby="ayuda-asunto" minlength="1" maxlength="20" list="asunto-options" />
+            <span class="emoji" id="asunto-span" aria-live="polite" hidden>⚠️</span>
+          </div>
+          <small id="ayuda-asunto" class="ayuda">El motivo de su consulta (cotización, agendar hora, etc).</small>
+          <datalist id="asunto-options">
+            <option>Agendar hora</option>
+            <option>Consulta</option> 
+            <option>Servicios mecánicos</option>
+            <option>Servicios de lavado</option>
+           </datalist>
+        </div>
+
+        <div class="contacto-form-group">
+          <label for="mensaje">Mensaje <span>(requerido)</span></label>
+          <div class="form-row">
+            <textarea
+            name="mensaje"
+            id="mensaje"
+            minlength="4"
+            maxlength="80"
+            aria-describedby="ayuda-mensaje"
+            required
+          ></textarea>
+          <span class="emoji" id="mensaje-span" aria-live="polite" hidden>⚠️</span>
+          </div>
+          <small id="ayuda-mensaje" class="ayuda">Puede decirnos en qué podemos ayudarle.</small>
+        </div>
+
+        <input class="submit-button" type="submit" value="Enviar" />
+      </form>
+    </div>
+  </section>
+
+  <section id="map" class="map" aria-label="Ubicación en el mapa - 21 de Mayo #1497, Antofagasta">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.4567041649293!2d-70.39612278447386!3d-23.659620271114708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96afd58b21d2c4e3%3A0x5ded0a4d62e51b7a!2sSERVICIOS%20YVES%20SIEDE%20E.I.R.L.!5e0!3m2!1ses-419!2scl!4v1625264786963!5m2!1ses-419!2scl"
+      allowfullscreen=""
+      title="Mapa de nuestro taller en Google Maps"
+      loading="lazy"
+    ></iframe>
+  </section>
+</main>

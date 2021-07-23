@@ -1,0 +1,467 @@
+/*
+/* Index
+/*
+*/
+
+/* Hero Sin imagen de fondo */
+/*
+.hero {
+  height: 60vh;
+  min-height: 384px;
+  max-height: 600px;
+  color: var(--body-bg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: linear-gradient(
+    to bottom,
+    hsl(218.28, 98.31%, 23.14%) 0%,
+    hsl(220.91, 83.6%, 25.22%) 8.1%,
+    hsl(222.78, 70.99%, 27.74%) 15.5%,
+    hsl(223.82, 61.37%, 30.46%) 22.5%,
+    hsl(224.3, 54.09%, 33.28%) 29%,
+    hsl(224.44, 48.58%, 36.12%) 35.3%,
+    hsl(224.39, 44.39%, 38.91%) 41.2%,
+    hsl(224.24, 41.19%, 41.6%) 47.1%,
+    hsl(224.05, 38.72%, 44.14%) 52.9%,
+    hsl(223.85, 36.82%, 46.47%) 58.8%,
+    hsl(223.66, 35.35%, 48.55%) 64.7%,
+    hsl(223.48, 34.73%, 50.36%) 71%,
+    hsl(223.34, 35.96%, 51.84%) 77.5%,
+    hsl(223.24, 36.96%, 52.96%) 84.5%,
+    hsl(223.17, 37.63%, 53.67%) 91.9%,
+    hsl(223.15, 37.87%, 53.92%) 100%
+  );
+}
+/*
+
+
+/* con imagen de fondo*/
+
+.hero {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(hsl(218.28, 98.31%, 23.14%)),
+    color-stop(8.1%, hsl(220.91, 83.6%, 25.22%)),
+    color-stop(15.5%, hsl(222.78, 70.99%, 27.74%)),
+    color-stop(22.5%, hsl(223.82, 61.37%, 30.46%)),
+    color-stop(29%, hsl(224.3, 54.09%, 33.28%)),
+    color-stop(35.3%, hsl(224.44, 48.58%, 36.12%)),
+    color-stop(41.2%, hsl(224.39, 44.39%, 38.91%)),
+    color-stop(47.1%, hsl(224.24, 41.19%, 41.6%)),
+    color-stop(52.9%, hsl(224.05, 38.72%, 44.14%)),
+    color-stop(58.8%, hsl(223.85, 36.82%, 46.47%)),
+    color-stop(64.7%, hsl(223.66, 35.35%, 48.55%)),
+    color-stop(71%, hsl(223.48, 34.73%, 50.36%)),
+    color-stop(77.5%, hsl(223.34, 35.96%, 51.84%)),
+    color-stop(84.5%, hsl(223.24, 36.96%, 52.96%)),
+    color-stop(91.9%, hsl(223.17, 37.63%, 53.67%)),
+    to(hsl(223.15, 37.87%, 53.92%))
+  );
+  background: -o-linear-gradient(
+    top,
+    hsl(218.28, 98.31%, 23.14%) 0%,
+    hsl(220.91, 83.6%, 25.22%) 8.1%,
+    hsl(222.78, 70.99%, 27.74%) 15.5%,
+    hsl(223.82, 61.37%, 30.46%) 22.5%,
+    hsl(224.3, 54.09%, 33.28%) 29%,
+    hsl(224.44, 48.58%, 36.12%) 35.3%,
+    hsl(224.39, 44.39%, 38.91%) 41.2%,
+    hsl(224.24, 41.19%, 41.6%) 47.1%,
+    hsl(224.05, 38.72%, 44.14%) 52.9%,
+    hsl(223.85, 36.82%, 46.47%) 58.8%,
+    hsl(223.66, 35.35%, 48.55%) 64.7%,
+    hsl(223.48, 34.73%, 50.36%) 71%,
+    hsl(223.34, 35.96%, 51.84%) 77.5%,
+    hsl(223.24, 36.96%, 52.96%) 84.5%,
+    hsl(223.17, 37.63%, 53.67%) 91.9%,
+    hsl(223.15, 37.87%, 53.92%) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    hsl(218.28, 98.31%, 23.14%) 0%,
+    hsl(220.91, 83.6%, 25.22%) 8.1%,
+    hsl(222.78, 70.99%, 27.74%) 15.5%,
+    hsl(223.82, 61.37%, 30.46%) 22.5%,
+    hsl(224.3, 54.09%, 33.28%) 29%,
+    hsl(224.44, 48.58%, 36.12%) 35.3%,
+    hsl(224.39, 44.39%, 38.91%) 41.2%,
+    hsl(224.24, 41.19%, 41.6%) 47.1%,
+    hsl(224.05, 38.72%, 44.14%) 52.9%,
+    hsl(223.85, 36.82%, 46.47%) 58.8%,
+    hsl(223.66, 35.35%, 48.55%) 64.7%,
+    hsl(223.48, 34.73%, 50.36%) 71%,
+    hsl(223.34, 35.96%, 51.84%) 77.5%,
+    hsl(223.24, 36.96%, 52.96%) 84.5%,
+    hsl(223.17, 37.63%, 53.67%) 91.9%,
+    hsl(223.15, 37.87%, 53.92%) 100%
+  );
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
+  min-height: 384px;
+  max-height: 600px;
+  color: var(--body-bg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* hero con tono azul*/
+/*
+.hero.visible {
+  background-image: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(rgba(44, 79, 114, 0.8)),
+      to(rgba(43, 81, 118, 0.8))
+    ),
+    url("/images/car-repair-600.webp");
+  background-image: -o-linear-gradient(
+      rgba(44, 79, 114, 0.8),
+      rgba(43, 81, 118, 0.8)
+    ),
+    url("/images/car-repair-600.webp");
+  background-image: linear-gradient(
+      rgba(44, 79, 114, 0.8),
+      rgba(43, 81, 118, 0.8)
+    ),
+    url("/images/car-repair-600.webp");
+  background-attachment: scroll;
+}
+*/
+
+/* Hero con tono oscuro*/
+
+.hero.visible {
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/car-repair-600.webp");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.5)),
+      to(rgba(0, 0, 0, 0.5))
+    ),
+    url("/images/car-repair-600.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/car-repair-600.webp");
+  background-attachment: scroll;
+}
+
+.hero__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero__content > h2,
+.hero__content > p {
+  color: var(--body-bg);
+}
+
+.hero__content > p {
+  max-inline-size: 50ch;
+}
+
+.hero__content > h2 {
+  font-size: 1.7rem;
+}
+
+.hero__content > p {
+  padding: 0;
+  margin: 1rem 2.5rem;
+  text-align: center;
+}
+
+.hero__content > .button {
+  border: 2px solid var(--body-bg);
+  color: var(--body-bg);
+  padding: 1.3rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+  will-change: transform;
+  background: -o-linear-gradient(var(--primary-color) 0 0) left / var(--d, 0%)
+    100% no-repeat;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, var(--primary-color))
+    )
+    left / var(--d, 0%) 100% no-repeat;
+  background: linear-gradient(var(--primary-color) 0 0) left / var(--d, 0%) 100%
+    no-repeat;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-animation: grow 0.5s ease-in 1.5s;
+  animation: grow 0.5s ease-in 1.5s;
+}
+
+.hero__content > .button:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: 2px solid var(--primary-color);
+  --d: 100%;
+}
+
+.hero__content > .button:focus {
+  border: 2px solid var(--primary-color);
+}
+
+@-webkit-keyframes grow {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  49% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes grow {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  49% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.servicios {
+  background: var(--body-bg);
+  padding: 2.5rem 0;
+}
+
+.servicios-title {
+  text-align: center;
+  color: var(--secondary-light);
+}
+
+.servicios-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 1.5rem;
+  gap: 1.5rem;
+}
+
+.servicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 2.5rem 0;
+  -webkit-box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+}
+
+.servicio > p {
+  text-align: center;
+  margin: 0 2.5rem;
+  max-inline-size: 60ch;
+}
+
+.servicio-ul {
+  line-height: 1.5;
+  margin: 0 2.5rem;
+}
+
+.icon-services {
+  stroke: var(--secondary-color);
+  stroke-width: 1.5;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  width: 7rem;
+  height: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  place-content: center;
+  border: 4px solid var(--primary-light);
+  border-radius: 50% 50% 100% 0% / 100% 100% 0% 100%;
+}
+
+/*en gordo*/
+@media (min-width: 768px) {
+  .hero {
+    height: 80vh;
+  }
+
+  .hero.visible {
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .servicios-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .servicios-container > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 540px;
+    flex: 1 1 540px;
+  }
+}
+
+/*Mas gord*/
+@media (min-width: 1200px) {
+  .hero__content > h2 {
+    font-size: 1.5em;
+  }
+}
+
+/*a11ty*/
+@media (prefers-reduced-motion: reduce) {
+  @-webkit-keyframes grow {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+
+  @keyframes grow {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+}
+
+@media (prefers-reduced-data: reduce) {
+  .hero {
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(hsl(218.28, 98.31%, 23.14%)),
+      color-stop(8.1%, hsl(220.91, 83.6%, 25.22%)),
+      color-stop(15.5%, hsl(222.78, 70.99%, 27.74%)),
+      color-stop(22.5%, hsl(223.82, 61.37%, 30.46%)),
+      color-stop(29%, hsl(224.3, 54.09%, 33.28%)),
+      color-stop(35.3%, hsl(224.44, 48.58%, 36.12%)),
+      color-stop(41.2%, hsl(224.39, 44.39%, 38.91%)),
+      color-stop(47.1%, hsl(224.24, 41.19%, 41.6%)),
+      color-stop(52.9%, hsl(224.05, 38.72%, 44.14%)),
+      color-stop(58.8%, hsl(223.85, 36.82%, 46.47%)),
+      color-stop(64.7%, hsl(223.66, 35.35%, 48.55%)),
+      color-stop(71%, hsl(223.48, 34.73%, 50.36%)),
+      color-stop(77.5%, hsl(223.34, 35.96%, 51.84%)),
+      color-stop(84.5%, hsl(223.24, 36.96%, 52.96%)),
+      color-stop(91.9%, hsl(223.17, 37.63%, 53.67%)),
+      to(hsl(223.15, 37.87%, 53.92%))
+    );
+    background: -o-linear-gradient(
+      top,
+      hsl(218.28, 98.31%, 23.14%) 0%,
+      hsl(220.91, 83.6%, 25.22%) 8.1%,
+      hsl(222.78, 70.99%, 27.74%) 15.5%,
+      hsl(223.82, 61.37%, 30.46%) 22.5%,
+      hsl(224.3, 54.09%, 33.28%) 29%,
+      hsl(224.44, 48.58%, 36.12%) 35.3%,
+      hsl(224.39, 44.39%, 38.91%) 41.2%,
+      hsl(224.24, 41.19%, 41.6%) 47.1%,
+      hsl(224.05, 38.72%, 44.14%) 52.9%,
+      hsl(223.85, 36.82%, 46.47%) 58.8%,
+      hsl(223.66, 35.35%, 48.55%) 64.7%,
+      hsl(223.48, 34.73%, 50.36%) 71%,
+      hsl(223.34, 35.96%, 51.84%) 77.5%,
+      hsl(223.24, 36.96%, 52.96%) 84.5%,
+      hsl(223.17, 37.63%, 53.67%) 91.9%,
+      hsl(223.15, 37.87%, 53.92%) 100%
+    );
+    background: linear-gradient(
+      to bottom,
+      hsl(218.28, 98.31%, 23.14%) 0%,
+      hsl(220.91, 83.6%, 25.22%) 8.1%,
+      hsl(222.78, 70.99%, 27.74%) 15.5%,
+      hsl(223.82, 61.37%, 30.46%) 22.5%,
+      hsl(224.3, 54.09%, 33.28%) 29%,
+      hsl(224.44, 48.58%, 36.12%) 35.3%,
+      hsl(224.39, 44.39%, 38.91%) 41.2%,
+      hsl(224.24, 41.19%, 41.6%) 47.1%,
+      hsl(224.05, 38.72%, 44.14%) 52.9%,
+      hsl(223.85, 36.82%, 46.47%) 58.8%,
+      hsl(223.66, 35.35%, 48.55%) 64.7%,
+      hsl(223.48, 34.73%, 50.36%) 71%,
+      hsl(223.34, 35.96%, 51.84%) 77.5%,
+      hsl(223.24, 36.96%, 52.96%) 84.5%,
+      hsl(223.17, 37.63%, 53.67%) 91.9%,
+      hsl(223.15, 37.87%, 53.92%) 100%
+    );
+  }
+}
